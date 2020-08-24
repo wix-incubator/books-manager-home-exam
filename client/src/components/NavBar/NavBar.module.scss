@@ -1,0 +1,33 @@
+.linksContainer {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  > li {
+    margin-right: 28px;
+  }
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  width: 85%;
+}
+
+.navigation {
+  background: rgb(47, 47, 63);
+  padding-top: 20px;
+  padding-bottom: 3px;
+}
+
+.link {
+  text-decoration: none;
+  transition: 100ms ease-in-out color;
+  &:active {
+    color: white;
+  }
+  &:visited {
+    color: white;
+  }
+
+  &:hover {
+    color: rgb(169, 242, 255);
+  }
+}
