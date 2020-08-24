@@ -39,13 +39,13 @@ As a user you want to be able to do the following actions:
 
 ## First assignment
 All of the data about the books (search and cover images) should be acquired from the [openLibrary api](https://openlibrary.org/developers/api).  
-For the first assignment they should implement all of the user  stories above.  
+For the first assignment you should implement all of the user  stories above.  
 collections and books should be persisted using local storage.  
 
 
 ## Second assignment
-Building upon the first assignment, they should add a filter panel which lets filter the the book list by author and by range of publication years.  
-The author filter should be applied as you type (only when there are more than 2 chars in the filter) and the year range should be applied using a button.
+Building upon the first assignment, you should add a filter panel which lets the user filter the the book list by author.  
+The author filter should be applied as you type.
 
 
 ## Third assignment
@@ -57,6 +57,6 @@ The data should be stored in memory, and managed using the server by the followi
 **GET** /collections - list of all collections.  
 **POST** /collections -  create a new collection.  
 **DELETE** /collections/:collectionId - delete collection with the specified id.  
-**PUT** /collections/:collectionId - update collection with the specified id.  
+**PUT** /collections/:collectionId - update collection with the specified id (rename).  
 **DELETE** /collections/:collectionId/books/:bookId - delete a book with the specified id from the collection with the specified id.   
 **POST** /collections/:collectionId/books - add a book to the collection with the specified id.   
