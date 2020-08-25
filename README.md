@@ -37,21 +37,10 @@ As a user you want to be able to do the following actions:
 
 ---
 
-## First assignment
+## Assignment
 All of the data about the books (search and cover images) should be acquired from the [openLibrary api](https://openlibrary.org/developers/api).  
 For the first assignment you should implement all of the user  stories above.  
 collections and books should be persisted using local storage.  
-
-
-## Second assignment
-Building upon the first assignment, you should add a filter panel which lets the user filter the the book list by author.  
-The author filter should be applied as you type.
-
-
-## Third assignment
-all of the data should be persisted to a server.   
-The data should be stored in memory, and managed using the server by the following endpoints:
-
 
 ### collections
 **GET** /collections - list of all collections.  
