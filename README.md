@@ -2,7 +2,7 @@
 
 ## TOC
 - [Getting Started](#getting-started)
-- [The mission should you choose to accept it is as follows](#the-mission-should-you-choose-to-accept-it-is-as-follows)
+- [The mission should you choose to accept it is as follows](#your-mission-should-you-choose-to-accept-it-is-as-follows)
 - [First assignment](#first-assignment)
 - [Second assignment](#second-assignment)
 - [Third assignment](#third-assignment)
@@ -15,9 +15,10 @@
 2. Go [here](https://github.com/new/import) and import this repository into your account. Make sure to select the **private** option.
 3. [Clone](https://try.github.io/) your new repository to your computer.
 4. Make sure you have *Node.js* 10 or higher and *npm* 6 or higher installed.
-5. To start the client `cd client && npm start`.
-6. To start server `cd server && npm start`.
-7. **SHAYKA who they should send their submissions? they need to add someone/entity as a contributor. we probabyl need a generic github user from IT to handle this submissions...**
+5. Before starting to run the local client or the local server on the first time, make sure to install packages by running `npm install` in the client/server folder. 
+6. To start the client `cd client && npm start`.
+7. To start server `cd server && npm start`.
+8. **SHAYKA who they should send their submissions? they need to add someone/entity as a contributor. we probabyl need a generic github user from IT to handle this submissions...**
 
 ## Your mission, should you choose to accept it
 Create a book keeping web app that has two main components: 
