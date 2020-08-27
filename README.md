@@ -2,11 +2,10 @@
 
 ## TOC
 - [Getting Started](#getting-started)
-- [The mission should you choose to accept it is as follows](#your-mission-should-you-choose-to-accept-it-is-as-follows)
-- [First assignment](#first-assignment)
-- [Second assignment](#second-assignment)
-- [Third assignment](#third-assignment)
-  * [collections](#collections)
+- [Your mission should you choose to accept it is as follows](#your-mission-should-you-choose-to-accept-it-is-as-follows)
+- [Assignment](#assignment)
+- [Guidelines](#guidelines)
+- [Submissions](#submissions)
 ---
 
 
@@ -21,9 +20,11 @@
 8. **SHAYKA who they should send their submissions? they need to add someone/entity as a contributor. we probabyl need a generic github user from IT to handle this submissions...**
 
 ## Your mission, should you choose to accept it
-Create a book keeping web app that has two main components: 
+Create a book keeping web app that has two main pages: 
 - books search
 - books collections
+
+> A book collection is just a list of books under some topic, for example "To read" collection which includes all of the books you want to read or a "Read" collection which includes all of the books you have read.
 
 As a user you want to be able to do the following actions: 
  - Search for books by name and show some basic info on each search result, like cover image, authors and publication year (feel free to show more info). 
@@ -40,13 +41,16 @@ As a user you want to be able to do the following actions:
 
 ## Assignment
 All of the data about the books (search and cover images) should be acquired from the [openLibrary api](https://openlibrary.org/developers/api).  
-For the first assignment you should implement all of the user  stories above.  
-collections and books should be persisted using local storage.  
+For the first assignment you should implement all of the user  stories above.
 
-### collections
-**GET** /collections - list of all collections.  
-**POST** /collections -  create a new collection.  
-**DELETE** /collections/:collectionId - delete collection with the specified id.  
-**PUT** /collections/:collectionId - update collection with the specified id (rename).  
-**DELETE** /collections/:collectionId/books/:bookId - delete a book with the specified id from the collection with the specified id.   
-**POST** /collections/:collectionId/books - add a book to the collection with the specified id.   
+
+
+## Guidelines 
+- Write a lot of commits - ideally each user story will have at least one commit.
+
+
+
+## Submissions 
+Once you are done, fill the following [form](https://docs.google.com/forms/d/e/1FAIpQLScet_74IlrtF9-Y_JEyKPQDPmC11G9zX2BH4Yx0n9iNDua3Rw/viewform) and invite `shayco@wix.com` and `gale@wix.com` as contributors to your repository.
+
+
