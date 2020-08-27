@@ -4,6 +4,7 @@
 - [Getting Started](#getting-started)
 - [Your mission should you choose to accept it is as follows](#your-mission-should-you-choose-to-accept-it-is-as-follows)
 - [Assignment](#assignment)
+  - [Bonus](#bonus)
 - [Guidelines](#guidelines)
 - [Submissions](#submissions)
 ---
@@ -17,7 +18,6 @@
 5. Before starting to run the local client or the local server on the first time, make sure to install packages by running `npm install` in the client/server folder. 
 6. To start the client `cd client && npm start`.
 7. To start server `cd server && npm start`.
-8. **SHAYKA who they should send their submissions? they need to add someone/entity as a contributor. we probabyl need a generic github user from IT to handle this submissions...**
 
 ## Your mission, should you choose to accept it
 Create a book keeping web app that has two main pages: 
@@ -43,6 +43,8 @@ As a user you want to be able to do the following actions:
 All of the data about the books (search and cover images) should be acquired from the [openLibrary api](https://openlibrary.org/developers/api).  
 For the first assignment you should implement all of the user  stories above.
 
+### Bonus
+Make the search results sortable by publication year or title, if you have other ideas in mind go ahead and surprise us!
 
 
 ## Guidelines 
