@@ -14,6 +14,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "e2e": "jest -c e2e/jest.config.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -33,5 +34,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "jest-dev-server": "^4.4.0",
+    "jest-environment-node": "^26.6.2",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^5.5.0"
   }
 }
