@@ -19,6 +19,9 @@
 6. To start the client `cd client && npm start`.
 7. To start server `cd server && npm start`.
 
+## Running the tests
+To run the E2E test suite run `npm run e2e`.
+The tests are located inside `client/e2e` folder
 ## Your mission, should you choose to accept it
 Create a book keeping web app that has two main pages: 
 - books search
